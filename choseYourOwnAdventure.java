@@ -33,12 +33,6 @@ public class choseYourOwnAdventure {
                         System.out.println("You chose to stay inside and eat chips for your snack!");
                     }
                 }
-                else 
-                {
-                    System.out.println("Do you want to eat fruits or chips? \n a or fruits, b for chips");
-                    input3 = input.nextLine();
-                    main(new String[0]); //goes back to the beginning of sequence
-                }
 
             } 
             else if (input2 == "b") 
@@ -59,15 +53,8 @@ public class choseYourOwnAdventure {
                         System.out.println("You chose to stay inside and play videogames for your game!");
                     }  
                 }
-                else 
-                {
-                    System.out.println("Do you want to play cards or video games? \n a or cards, b for video games");
-                    input4 = input.nextLine();
-                    main(new String[0]); //goes back to the beginning of sequence
-                }
-            }
- 
-            
+
+            }    
         } 
         else if (input1 == "b") 
         {
@@ -92,12 +79,6 @@ public class choseYourOwnAdventure {
                         System.out.println("You chose to go ouside and jumprope with a friend!");
                     }
                 }
-                else 
-                {
-                    System.out.println("Do you want to jumprope by yourself or with a friend? \n a alone or b with friend");
-                    input6 = input.nextLine();
-                    main(new String[0]); //goes back to the beginning of sequence
-                }
             } 
             else if (input5 == "b") 
             {
@@ -117,12 +98,6 @@ public class choseYourOwnAdventure {
                         System.out.println("You chose to go outside and play basketball with a team!");
                     }
                 }
-                else 
-                {
-                    System.out.println("Do you want to play 1v1 (a) or on a team (b)?");
-                    input7 = input.nextLine();
-                    main(new String[0]); //goes back to the beginning of sequence
-                }
             } 
             else if (input5 == "c") 
             {
@@ -141,12 +116,6 @@ public class choseYourOwnAdventure {
                     {
                         System.out.println("You chose to go outside and draw with colored pencils!");
                     }
-                }
-                else 
-                {
-                    System.out.println("Do you want to draw with crayons (a) or colored pencils (b)?");
-                    input8 = input.nextLine();
-                    main(new String[0]); //goes back to the beginning of sequence
                 }
             }
         }
